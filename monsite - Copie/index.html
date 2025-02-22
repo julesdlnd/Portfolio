@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jules Delalande</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Jules Delalande</h1>
+        <h2>Cartographe - Géomaticien</h2>
+        <section class="description">
+            <p>Bienvenue sur mon site afin de découvrir mes réalisations et apprendre à me connaitre</p>
+        </section>
+        <button type="button" onclick="location.href='#biographie'" class="btn btn-light">Biographie</button>
+        <button type="button" onclick="location.href='#gallery1'" class="btn btn-light">Portfolio</button>
+        <button type="button" onclick="location.href='#contact'" class="btn btn-light">Contact</button>
+        </header>
+    <main>
+        <section class="presentation">
+            <div class="image-banner">
+                <img src="./image/TOURS.png" alt="Photo présentation">
+            </div>
+        </section>
+
+        <section class="biographie">
+            <h3 id="biographie">Biographie</h3>
+            <p>Jeune diplômé d'un Master en Géomatique, parcours "Systèmes d'Information Géographique et Analyse des Territoires" (SIGAT) à l'université Rennes 2. <br> J'ai découvert ce domaine passionnant lors de ma dernière année de Licence en Géographie. Cette découverte m'a permis de comprendre comment gérer, <br> analyser et valoriser des données géographiques de manière efficace. Animé par une volonté constante de progresser, je continue à perfectionner mes compétences <br> en SIG (logiciel cartographique, langage de programmation, logiciel de création graphique ...) à travers une pratique régulière. </p>
+        </section>
+
+        <section class="Carto">
+            <h3>Portfolio</h3>
+            <div class="photo-container">
+                <div class="img1"><img src="./image/BIVARIE_Delalande_Jules.jpg" class="img-responsive" alt="Equipements de santé et mortalité"></div> 
+                <div class="img2"><img src="./image/Accessibilité aux gare et protection des vélos Indre-et-Loire.png" class="img-responsive" alt="Accessibilité gares et vélos en Indre-et-Loire"></div>
+                <div class="img3"><img src="./image/carte_fleurissement.jpg" class="img-responsive" alt="Mise en avant florale à Amboise"></div>
+                <div class="img4"><img src="./image/GTFS_Delalande_Jules.png" class="img-responsive" alt="Accessibilité aux Espaces Verts à Tours"></div> 
+                <div class="img5"><img src="./image/EKIDEN.jpg" class="img-responsive" alt="Résultat course Ballan-Miré 2024"></div> 
+                <div class="img6"><img src="./image/Geomatique et NBA_Delalande_Jules.jpg" class="img-responsive" alt="Géomatique et NBA"></div>
+                <div class="img7"><img src="./image/poster_foot.jpg" class="img-responsive" alt="Les statistiques de la LDC"></div>
+                <div class="img8"><img src="./image/Poster A1 Workshop_page.jpg" class="img-responsive" alt="L'Air à travers le SCOT du Pays de Rennes"></div>
+                <div class="img9"><img src="./image/course_toulouse.png" class="img-responsive" alt="Résultat du Semi-Marathon de Toulouse"></div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="contact">
+            <section>
+                <h3 id="contact">Contact</h3>
+                <ul class="button-container">
+                    <li><a href="mailto:jules.delalande37@gmail.com" target="_blank" class="button">Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/jules-delalande-65978b265/" target="_blank" class="button">LinkedIn</a></li>
+                    <li><a href="./image/CV_Delalande.pdf" target="_blank" class="button">CV</a></li>
+                </ul>
+            </section>
+        </div>
+        <p>© 2025 Ma Galerie. Tous droits réservés.</p> 
+    </footer>
+    <script src="./script.js"></script>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+      </div>
+      
+</body>
+</html>
